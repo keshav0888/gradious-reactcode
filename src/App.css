@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App{
+  background-color: #f6ffe5;
+  padding: 0px;
+}
+.header{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  color: white;
+  background-color: #7220CE;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.ag-theme-alpine .ag-header {
+  background-color: #04aa6d;
+/*background-color: #F9F9F9;*/
+}
+.ag-theme-alpine .ag-header-cell {
+  color: white;
+}
+.ag-theme-alpine .ag-icon-filter {
+  --ag-icon-color: red;
+}
+.AddBtn{
+  background-color: green;
+  padding: 0.5rem 1rem  0.5rem 1rem;
+  color: white;
+ margin-left: auto;
+ margin-right: 3rem;
+}
+.btn{
+  background-color:"green";
+  color:"white";
+  padding:"0.2rem 1rem 0.2rem 1rem";
+  margin-right:"20px" 
+}
+.AddDataContainer {
+  display: flex;
+}
+
+.AddBtn {
+  /* Add your button styles here */
+}
+
+.dialogPaper {
+  min-height: 50vh;
+  max-height: 50vh;
+}
+
+.formContainer {
+  padding: 5px;
+  margin: 10px;
+}
+
+.inputField {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 180px;
+  height: 20px;
+  padding: 4px;
+  color: #555;
+}
+
+.textareaField {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 180px;
+  height: 40px;
+  padding: 4px;
+  color: #555;
+}
+.buttonContainer{
+  display: flex;
+}
+.submitButton {
+  background-color: green;
+  color: white;
+  padding: 0.2rem 1rem;
+  margin-right: 20px;
+}
+.closeButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeButton {
+  cursor: pointer;
+}
+/* buttonStyles.css */
+.btn-cell {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  background-color: green;
+  color: white;
+  height: 25px;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.centered-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
